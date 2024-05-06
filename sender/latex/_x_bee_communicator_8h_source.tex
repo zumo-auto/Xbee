@@ -1,0 +1,22 @@
+\doxysection{XBee\+Communicator.\+h}
+\hypertarget{_x_bee_communicator_8h_source}{}\label{_x_bee_communicator_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ XBEE\_COMMUNICATOR\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ XBEE\_COMMUNICATOR\_H}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <Arduino.h>}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_x_bee_communicator}{XBeeCommunicator}}\ \{}
+\DoxyCodeLine{00006\ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00007\ \ \ \ \ \mbox{\hyperlink{class_x_bee_communicator}{XBeeCommunicator}}(HardwareSerial\&\ serialPort);}
+\DoxyCodeLine{00008\ \ \ \ \ \textcolor{keywordtype}{void}\ begin(\textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{long}\ baudrate);}
+\DoxyCodeLine{00009\ \ \ \ \ \textcolor{keywordtype}{bool}\ available();}
+\DoxyCodeLine{00010\ \ \ \ \ \textcolor{keywordtype}{char}\ read();}
+\DoxyCodeLine{00011\ \ \ \ \ \textcolor{keywordtype}{void}\ println(\textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ message);}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00014\ \ \ \ \ HardwareSerial\&\ serial;}
+\DoxyCodeLine{00015\ \};}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}
