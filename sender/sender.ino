@@ -5,7 +5,7 @@ bool flag;
 
 void iest();
 
-XBeeCommunicator xbeeComm(Serial);
+XBeeCommunicator xbeeComm(Serial1);
 
 void setup() {
   xbeeComm.begin(9600);
